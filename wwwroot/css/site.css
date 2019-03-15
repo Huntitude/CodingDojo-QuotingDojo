@@ -1,0 +1,17 @@
+/*Write all of your CSS here*/
+h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+form {
+    width: 300px;
+    margin: auto;
+}
+input.btn.btn-primary{
+    margin-left: 47px;
+}
+
+
+textarea{
+    resize: none;
+}

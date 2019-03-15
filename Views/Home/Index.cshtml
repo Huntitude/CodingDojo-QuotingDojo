@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Quotes";
+}
+<h1>Welcome to Quoting Dojo</h1>
+<div class="contentcenter">
+        <form action="quotes" method="POST">
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><label for="Name">Name:</label></td>
+                    <td> <input type="text" name="name" class="form-control"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="Quote">Quote</label></td>
+                    <td> <textarea class="form-control" name="quote" cols="60" rows="5" ></textarea><br> </td>
+                </tr>
+            </table>
+             <input class="btn btn-primary" type="submit" value="Submit">
+             <input type="button" onclick="location.href='/quotes';" class="btn btn-info" value="See Quotes">
+        </form>
+        <br>
+        
+</div>
